@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+build/
+frontend/dist/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Temporary data artifacts & model binaries
+backend/data/temp_uploaded.csv
+backend/data/models/*.joblib
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
