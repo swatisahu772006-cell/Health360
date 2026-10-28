@@ -38,3 +38,4 @@ backend/data/models/*.joblib
 Thumbs.db
 .idea/
 .vscode/
+frontend/.netlify/
